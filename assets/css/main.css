@@ -1797,6 +1797,9 @@ p {
   .contact-section .contact-wrapper {
     margin-bottom: 50px;
   }
+  .pricing-section .single-pricing span.price {
+    margin-bottom: 0;
+  }
 }
 
 .contact-section .contact-wrapper .contact-form .single-form {
@@ -1917,4 +1920,7 @@ p {
 }
 .short.sticky {
   background: #fff;
+}
+.h-800 {
+  height: 800px;
 }
