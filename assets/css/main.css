@@ -1769,7 +1769,7 @@ p {
 }
 
 .pricing-section .single-pricing span.price {
-  font-size: 45px;
+  font-size: 42px;
   font-weight: 700;
   color: #286ADE;
   margin-bottom: 30px;
@@ -1799,6 +1799,7 @@ p {
   }
   .pricing-section .single-pricing span.price {
     margin-bottom: 0;
+    font-size: 32px;
   }
 }
 
