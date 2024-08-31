@@ -1304,6 +1304,40 @@ p {
   transition: all 0.3s ease-out 0s;
   z-index: -1;
 }
+.animated-button {
+  width: 280px;
+  height: 80px;
+  background-color: #31a09d;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  animation: colorChange 3s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #e32b17;
+  }
+  100% {
+    background-color: #28f225;
+  }
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.mob {
+  display: none;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-nav .nav-item a::before {
@@ -1362,6 +1396,13 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
+  }
+  .mob {
+    display: flex;
+    margin: auto;
+  }
+  .desc {
+    display: none!important;
   }
 }
 
