@@ -1978,7 +1978,7 @@ p {
   height: 800px;
 }
 
-body {
+#original {
   font-family: 'Open Sans', sans-serif !important;
   direction: ltr;
   font-size: 1em;
